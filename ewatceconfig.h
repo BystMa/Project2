@@ -1,0 +1,15 @@
+#ifndef _EWATCECONFIG_H
+#define _EWATCECONFIG_H
+
+#define EWATCE_WNDCAPTION "Awesome Game"
+#define EWATCE_LOGFILENAME "ewatclog.txt"
+#define EWATCE_DEFAULT_FONT_FILE "default.ttf"
+#define EWATCE_DEFAULT_FONT_SIZE 16
+
+#define EWATCE_SCREEN_WIDTH        (4*64) + 180 // map plus UI
+#define EWATCE_SCREEN_HEIGHT       (4*64)
+#define EWATCE_SCREEN_BITDEPTH     32
+#define EWATCE_SCREEN_PARAMS       (SDL_HWSURFACE | SDL_DOUBLEBUF | SDL_ASYNCBLIT)
+
+#endif
+
